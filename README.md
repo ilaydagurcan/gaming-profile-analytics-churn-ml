@@ -1,53 +1,124 @@
-# Gaming Profile Analytics & Churn Modeling
+## Dashboard Pages & Visual Assets
 
-An end-to-end **gaming analytics and churn prediction** project that combines
-**business intelligence dashboards** with **machine learning models** to analyze
-player behavior, game economics, and churn risk across platforms.
+### 01. Global Platform Snapshot
+High-level overview of the platform including total games, revenue, publishers, players, and country coverage.
 
----
+- Core KPIs: total games, total revenue, publishers, players, countries
+- Global player and revenue footprint
+- Snapshot-level strategic overview
 
-## 1. Project Overview
-
-This project analyzes large-scale gaming data to answer four core business questions:
-
-1. How do player behaviors differ across platforms and genres?
-2. Which player segments drive engagement and revenue?
-3. What signals indicate early churn risk?
-4. Can churn be predicted reliably using behavioral features?
-
-The project integrates **Looker Studio dashboards** for business insights
-and **machine learning models** for predictive analytics.
+File:  
+01_global_platform_snapshot.png
 
 ---
 
-## 2. Data Scope
+### 02. Global Platform Snapshot – Detailed View
+Deeper exploration of global performance metrics with country-level and temporal breakdowns.
 
-The analysis covers:
-- Player activity and achievements
-- Game prices and genres
-- Platform-level engagement (Steam, PlayStation, Xbox)
-- Temporal behavior (recency, activity frequency)
-- Purchase and spending patterns
+- Revenue by country
+- Daily achievement activity trends
+- Geographic player distribution map
 
-> Raw datasets are not included in this repository due to size and privacy constraints.
+File:  
+02_global_platform_snapshot_detail.png
 
 ---
 
-## 3. Analytics & BI Dashboards (Looker Studio)
+### 03. Player Segmentation and Churn Analysis
+Overview of player lifecycle health and churn exposure across segments.
 
-Interactive dashboards were built to support exploratory analysis and decision-making.
+- Active vs inactive players
+- Churn rate and average spend per player
+- Segment-level engagement metrics
+- Activity recency distribution
 
-### Key Dashboard Sections
-- **Global Platform Snapshot**  
-  Games, revenue, publishers, player distribution, and country coverage
+File:  
+03_player_segmentation_churn_analysis.png
 
-- **Player Behavior & Engagement**  
-  Activity trends, achievements over time, and behavioral intensity
+---
 
-- **Game Economy Analysis**  
-  Price distributions, library sizes, and purchase behavior
+### 04. Game Revenue Analysis
+Revenue-focused analysis highlighting top-performing games and genres.
 
-- **Segmentation & Churn Analysis**  
-  Active vs inactive players, churn rates, and player segments
+- Top games by revenue
+- Top games by engagement
+- Revenue contribution by genre
+- Monetization insights
 
-Dashboard link is available in:
+File:  
+04_game_revenue_analysis.png
+
+---
+
+### 05. Game and Genre Analysis
+Content-level analysis focused on genre distribution and pricing.
+
+- Game count by genre
+- Average game price by genre
+- Genre mix and portfolio balance
+
+File:  
+05_game_genre_analysis.png
+
+---
+
+### 06. Platform Comparison – Game and Pricing
+Cross-platform comparison between PlayStation and Steam.
+
+- Game count vs average price
+- Free vs paid game distribution
+- Price range comparison
+- Game release trends over time
+
+File:  
+06_platform_comparison_game_pricing.png
+
+---
+
+### 07. Player Segmentation – Machine Learning
+Unsupervised learning–based player segmentation using clustering techniques.
+
+- K-Means clustering
+- Elbow Method for optimal cluster selection
+- Behavioral player groups
+
+File:  
+07_player_segmentation_ml.png
+
+---
+
+### 08. Dormant Segment Analysis
+Focused analysis of dormant and at-risk players.
+
+- Behavioral characteristics of dormant users
+- Early warning signals for churn
+- Re-engagement opportunity insights
+
+File:  
+08_dormant_segment_analysis.png
+
+---
+
+### 09. Churn Model Performance
+Evaluation note
+
+Supervised churn prediction model performance assessment.
+
+- ROC curve (60-day churn definition)
+- Confusion matrix
+- Recall-precision trade-offs
+
+File:  
+09_churn_model_performance.png
+
+---
+
+### 10. Churn Feature Impact and Calibration
+Model interpretability and reliability analysis.
+
+- Feature impact on churn prediction
+- Coefficient direction and magnitude
+- Model calibration and risk score reliability
+
+File:  
+10_churn_feature_impact_calibration.png
